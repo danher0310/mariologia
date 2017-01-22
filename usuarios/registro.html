@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malariologia</title>
+    <link rel="stylesheet" href="../icons/foundation-icons.css">
+    <link rel="stylesheet" href="../css/foundation-flex.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <!-- CDN de JQUERY -->
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+        crossorigin="anonymous"></script>`
+        <!-- Js Registros -->
+    <script type="text/javascript" src="../js/registro.js"></script>
+</head>
+<body>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+      <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
+        <nav data-magellan>
+          <ul class="vertical menu"  data-drilldown>
+            <li>
+              <a href="../index.html">
+                <i class="fi-home"></i>
+                Incio
+              </a>
+            </li>
+            <li>
+              <a href="../quienessomos.html">¿Quienes somos?</a></li>
+            <li><a href="../informacion.html">Informacion</a></li>
+            <li>
+              <a href="#lineup-container">Acceder</a>
+              <ul id="submenu-container" class="vertical menu">
+                <li><a  href="login-usuario.html">Usuario</a></li>
+                <li><a  href="login-funcionario.html">Funcionario</a></li>
+                <li><a  href="registro.html">Registrate</a></li>
+                <li><a  href="#lineup-container"><p></p></a></li>
+              </ul>
+            </li>               
+          <li><a href="../contacto.html">Contactanos</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="off-cavas-content" data-off-canvas-content>
+    <!-- /menu desplegable de dispositivos small -->
+    <!-- logos -->
+    <header>
+        <!--  <div class="row small-12 align-center ">
+        <img src="img/logo-pagina-web2.jpg" alt="logo">
+        </div> -->
+      <div class="top-bar" id="logos">
+      <div class="top-bar-left">
+      <img src="../img/Logo-Min-Salud-2009.jpg" alt="logo" id="logomin">
+      </div>
+      <div class="top-bar-right">
+      <img src="../img/9033449membrete-2014-distri.jpg" width="550" height="80" alt="" id="logobice">
+      </div>
+      </div>
+    </header>
+  <!-- /logos -->
+  <!-- menu -->
+  <section id="scrollSticky" data-sticky-container >
+    <div id="sticky" class="data-sticky" data-sticky data-options="marginTop:0" data-sticky-on="small" data-top-anchor="scrollSticky" >
+      <nav id="menu-container" data-magellan>
+        <ul class="menu align-spaced show-for-small-only">
+          <li>
+            <a href="#" data-toggle="offCanvas"><i class="fi-list"></i>Menu</a></li>
+        </ul>
+        <ul class="dropdown menu align-spaced show-for-medium" data-dropdown-menu>
+          <li>
+            <a href="../index.html"><i class="fi-home"></i>Incio</a></li>
+          <li>
+            <a href="quienessomos.html">¿Quienes somos?</a></li>
+          <li>
+            <a href="#info-container">Informacion</a></li>        
+          <li>
+            <a href="#lineup-container">Acceder</a>
+            <ul id="submenu-container" class="vertical menu">
+            <li><a  href="login-usuario.html">Usuario</a></li>
+            <li><a  href="login-funcionario.html">Funcionario</a></li>
+            <li><a  href="registro.html">Registrate</a></li>
+            </ul>
+          </li> 
+        <li><a href="../contacto.html">Contactanos</a></li>
+    </ul>
+        </nav>
+    </div>
+  </section>
+  <!-- /menu -->
+  <!-- solicitud locales -->
+  <section id="login-container">
+    <br>
+    <br>
+    <div class="row align-center" id="registro">
+    <!--<form action="">-->
+      <h3 class="text-center">Registro para conformidades sanitaria</h3>
+      <div class="input-group small-12 ">    
+        <label class="input-group-label" id="form-regist">Razon Social:</label>
+        <input class="input-group-field" type="text" id="razon_social">  
+      </div>
+      <div class="input-group small-12 " id="rif">    
+        <label class="input-group-label" id="form-regist">RIF: </label>
+        <select id="rif-list" >
+          <option value="null">-</option>
+          <option value="J">J</option>
+          <option value="V">V</option>
+        </select> 
+        <p id="separador"> - </p>
+        <input class="input-group-field" id="rifField" type="text">  
+      </div>
+      <div class="input-group small-12 ">    
+        <label class="input-group-label" id="form-regist">Nombre del Representante legal:</label>
+        <input class="input-group-field" type="text" id="nombre">  
+      </div>
+      <div class="input-group small-12 ">    
+        <label class="input-group-label" id="form-regist">Apellido del Repreentante legal:</label>
+        <input class="input-group-field" type="text" id='apellido'>  
+      </div>
+      <div class="input-group small-12 " id="ci">    
+        <label class="input-group-label" id="form-regist">
+          Cedula del Representante Legal: </label>
+        <select id="ced-list" >
+          <option value="null">-</option>
+          <option value="VE">V</option>
+          <option value="E">E</option>
+          <option value="P">P</option>
+        </select>  <p id="separador"> - </p>
+        <input class="input-group-field" type="text" id="cedula">
+      </div>
+  <div class="input-group small-12 ">    
+    <label class="input-group-label" id="form-regist">Usuario:</label>
+    <input class="input-group-field" type="text" id="usuario">  
+  </div>
+  <div class="input-group small-12 ">    
+    <label class="input-group-label" id="form-regist">Contraseña:</label>
+    <input class="input-group-field" type="password" id="pass">  
+  </div>
+  <div class="input-group small-12 ">    
+    <label class="input-group-label" id="form-regist"> Confirmacion de Contraseña:</label>
+    <input class="input-group-field" type="password" id="confirmacion">  
+  </div>
+    <div class="input-group-button align-center">
+      <button type="submit" class="button" onClick="registrar()"> Registrar</button>
+    </div>
+  <!--</form>-->
+  </div>
+
+  </div>
+  </section>
+  <!-- /solicitud locales -->
+  <!-- footer -->
+  <section id="footer">
+  <div class="medium-12 columns">
+  <ul class="menu align-right">
+  <li class="menu-text">Copyright © 2014 Daniel Herrera</li>
+  </ul>
+  </div>
+  </section>
+  <!-- /footer -->
+  </div>   
+  </div>
+  </div>
+</body>
+   <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/vendor/what-input.js"></script>
+    <script src="../js/vendor/foundation.js"></script>
+    <script src="../js/app.js"></script>
+</html>

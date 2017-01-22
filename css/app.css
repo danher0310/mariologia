@@ -1,0 +1,247 @@
+.top-bar{
+	background-color: white;
+}
+#menu-container{
+	background-color: #48a19d;
+
+}
+
+#menu-container li a{
+	color: white;
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+}
+
+#menu-small{
+	text-align: left
+}
+
+#submenu-container{
+	border:  0;
+}
+
+#menu-container li a:hover, 
+#submenu-container li a:hover{
+	/*con hover hace que el estilo cambie al pasar el mouse por deonde he seleccionado */
+	color: #f6e15f;
+}
+#submenu-container li a{
+	background-color: #48a19d;
+	color: white;
+
+}
+
+.orbit-container img{
+
+	display: inline-block;
+	max-width: 2000px;
+	max-height: 350px;
+	
+}
+
+.orbit-previous{
+	color: #48a19d;
+}
+.orbit-next{
+	color: #48a19d;
+}
+#galeria{
+	background-color: #48a19d;
+	border: 0;
+	color: white;
+	font-family: 'Bree Serif', serif;
+	font-size: 40px;
+}
+hr{
+	border: 0;
+}
+
+.galeria-container{
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+}
+.img-container img{
+		
+	 max-width: 180px;
+	height: 160px;
+  
+}
+.footer{
+	background-color: #48a19d
+
+}
+.data-sticky{
+	width: 100%;
+	z-index: 100;
+	/* elz-index lo pongo porque tengo error en los estilo y no funcionaba el sub menu del lineup */
+
+}
+#offCanvas,
+#offCanvas li a{
+	background-color: black;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+#offCanvas .is-drilldown-submenu-parent > a::after {
+	border-color: transparent transparent transparent white;
+}
+
+#offCanvas .js-drilldown-back > a::before {
+	border-color: transparent transparent transparent white;
+}
+@media(max-width: 640px){
+.off-canvas-wrapper{
+	background-color: black;
+}
+}
+#gacetas,
+#footer{
+	background-color: white;
+}
+#gacetas{
+	padding: 1em 0;
+}
+#gacetas #title{
+
+	font-size: 40px;
+	font-family: 'Bree Serif', serif;
+	border: 
+
+}
+
+.mision-container,
+.vision-container{
+	background-color: #397F7C;
+	padding: 1em 0;
+}
+
+#mision,
+#vision{
+	border: 5px solid #48a19d;
+	color:  white;
+}
+.info-container{
+	background-color: white;
+	padding: 1em 0;
+}
+#formatos {
+	padding-left: -6em;
+}
+#lista{
+	font-size: 13px;
+
+}
+#solicitud-container{
+	background-color: white;
+	padding: 1em 0;
+}
+
+#prueba{
+
+	border: 5px solid #48a19d;
+	
+
+}
+#prueba-2{
+	border-left: 5px solid #48a19d;
+}
+
+
+#solicitud-container p{
+	font-size: 14px;
+}
+#tabulador{
+	border: 5px solid #48a19d;
+	max-width: 500px;
+	margin-left: 250px;
+}
+#login-container{
+	background-color: white;
+	padding: 1em 0;
+}
+
+#button-m{
+	width: 150px;
+	background-color: #48a19d;
+	border-radius: 8px;
+}
+
+#login{
+	border: 5px solid #48a19d;
+
+
+}
+#login .input-group-field{
+	max-width: 250px;
+}
+#login label{
+	max-width: 110px;
+}
+#login .input-group-label {
+	width: 110px;
+}
+.input-group-button button{
+	margin-right: 50px;
+	border-radius: 10px;
+	width: 100px
+}
+#registro h3{
+	margin-bottom: 50px;
+}
+/* 
+ #rif-list {
+	width: 50px;
+	margin:  0px;
+
+	} */
+	
+	#separador{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+#registro .input-group-field
+{
+	max-width: 350px;
+	}
+
+	#rif .input-group-field,
+	#ci .input-group-field{
+		max-width: 150px;
+	}
+
+	
+
+#pag-usu h5{
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+
+#pag-usu #menu-container a{
+	font-size: 15px;
+}
+#usu{
+	margin-top: 30px;
+}
+#pag-usu{
+	background-color: #446994;
+	border: 2px solid #446994;
+	
+
+}
+#menu-container #men-con{
+	height: 100%; 
+}
+
+#usu{
+	margin-left: 10px;
+}
+@media(min-width: 1250px){
+#pag-usu{
+	height: 450px;
+}
+}
+select {
+	width: 50px;
+	margin:  0px;
+
+	}
